@@ -2,7 +2,7 @@
 
 A small native disk-usage browser inspired by `ncdu`.
 
-`cljdu` is ordinary JVM Clojure, rendered by [clj-gpui](https://github.com/gitwyrm/clj-gpui) (GPUI, not a browser or Electron). Select a folder, scan it in the background, and drill into the largest directories.
+`cljdu` is ordinary JVM Clojure, rendered by [clj-gpui](https://github.com/violetpurpleish/clj-gpui) (GPUI, not a browser or Electron). Select a folder, scan it in the background, and drill into the largest directories.
 
 Primary platforms: **macOS** and **Linux**. Windows is out of scope.
 
@@ -44,7 +44,7 @@ clojure -M:cljfmt fix
 
 Connect to a running UI with `clojure -M:connect`.
 
-`deps.edn` depends on [clj-gpui](https://github.com/gitwyrm/clj-gpui) at git SHA `ac8eec1016eaef746c77ac1a6986d4275258e970` (GPUI Kit 0.6 widgets, protocol 11). That SHA forwards GPUI text clip (`:truncate`, `:text-overflow`) so the status-bar scan path stays one line.
+`deps.edn` depends on [clj-gpui](https://github.com/violetpurpleish/clj-gpui) at git SHA `ac8eec1016eaef746c77ac1a6986d4275258e970` (GPUI Kit 0.6 widgets, protocol 11). That SHA forwards GPUI text clip (`:truncate`, `:text-overflow`) so the status-bar scan path stays one line.
 
 ## Packaging
 
@@ -77,4 +77,4 @@ Notarization can be added later with a Developer ID and `notarytool`.
 
 ## License
 
-MIT. The Catppuccin Violet palette is adapted from [utility_belt_gpui](https://github.com/gitwyrm/utility_belt_gpui) (MIT OR Apache-2.0); see `NOTICE`.
+MIT. The Catppuccin Violet palette is adapted from [utility_belt_gpui](https://github.com/violetpurpleish/utility_belt_gpui) (MIT OR Apache-2.0); see `NOTICE`.
