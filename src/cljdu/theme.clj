@@ -208,7 +208,7 @@
   (theme/theme-set
    {:name "Catppuccin Violet"
     :author "utility_belt_gpui"
-    :url "https://github.com/gitwyrm/utility_belt_gpui"
+    :url "https://github.com/violetpurpleish/utility_belt_gpui"
     :themes [{:name "Catppuccin Violet Light"
               :mode :light
               :colors light-colors}
